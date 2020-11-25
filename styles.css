@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+body {
+    font-size: 15px;
+    padding: 60px;
+}
+
+h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 15px;
+    color: hsl(300, 43%, 22%);
+}
+
+p {
+    color: hsl(303, 10%, 53%)
+}
+
+#top-section {
+    height: 50vh;
+}
+
+#top-left {
+    width: 50vw;
+}
+
+.five-star-cards {
+    background-color: hsl(300, 24%, 96%);
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 15px;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.review-cards {
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    height: 200px;
+    width: 275px;
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.review-cards img {
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 20px;
+}
+
+.review-cards-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.review-cards-profile p {
+    font-size: 10px;
+    color: hsl(333, 80%, 67%);
+    margin-top: 2px;
+}
+
+.testimonial {
+    font-size: 10px;
+    color: white;
+    line-height: 1.5;
+}
+
+.margin-top-sm {
+    margin-top: 10px;
+}
+
+.margin-top-med {
+    margin-top: 20px;
+}
+
+.margin-top-lg {
+    margin-top: 50px;
+}
+
+.margin-left-sm {
+    margin-left: 10px
+}
+
+.margin-left-med {
+    margin-left: 20px;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    #top-section {
+        height: 90vh
+    }
+
+    .margin-left-sm {
+        margin-left: 0px
+    }
+    
+    .margin-left-med {
+        margin-left: 0px;
+    }
+
+    .five-star-cards {
+        height: 75px;
+        width: 90vw;
+    }
+}
